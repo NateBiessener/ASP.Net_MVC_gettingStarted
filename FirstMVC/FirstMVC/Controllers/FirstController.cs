@@ -10,7 +10,7 @@ namespace FirstMVC.Controllers
     {
 		public ActionResult Detail()
         {
-			return Content("Hello from Controller!"); 
+			return View(); 
         }
     }
 }
