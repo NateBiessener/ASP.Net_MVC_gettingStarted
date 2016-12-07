@@ -8,9 +8,9 @@ namespace FirstMVC.Controllers
 {
     public class FirstController : Controller
     {
-        public string Detail()
+		public ActionResult Detail()
         {
-            return "Hello from Controller!";
+			return Content("Hello from Controller!"); 
         }
     }
 }
